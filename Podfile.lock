@@ -1,0 +1,16 @@
+PODS:
+  - GDGauge (1.1.4)
+
+DEPENDENCIES:
+  - GDGauge
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GDGauge
+
+SPEC CHECKSUMS:
+  GDGauge: 645ee6933c6f95289e43ef93259a5788713e7010
+
+PODFILE CHECKSUM: 84d76ebfcb5f763f8277b155a92ca03dc1458773
+
+COCOAPODS: 1.7.1

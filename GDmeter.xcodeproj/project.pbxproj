@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBF876222A60F0B003BA414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF876122A60F0B003BA414 /* AppDelegate.swift */; };
+		ECBF876422A60F0B003BA414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF876322A60F0B003BA414 /* ViewController.swift */; };
+		ECBF876722A60F0B003BA414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBF876522A60F0B003BA414 /* Main.storyboard */; };
+		ECBF876922A60F0D003BA414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBF876822A60F0D003BA414 /* Assets.xcassets */; };
+		ECBF876C22A60F0D003BA414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBF876A22A60F0D003BA414 /* LaunchScreen.storyboard */; };
+		ECBF877C22A61A33003BA414 /* GDGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF877322A61156003BA414 /* GDGauge.swift */; };
+		ECBF877E22A632E3003BA414 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF877D22A632E3003BA414 /* secondViewController.swift */; };
+		EDB2511472B2A787166A9382 /* Pods_GDmeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9316BBE4A57819DE539A12 /* Pods_GDmeter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C2250DD3E134617366BA676 /* Pods-GDmeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDmeter.debug.xcconfig"; path = "Target Support Files/Pods-GDmeter/Pods-GDmeter.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE3E955078DDFC188196657 /* Pods-GDmeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDmeter.release.xcconfig"; path = "Target Support Files/Pods-GDmeter/Pods-GDmeter.release.xcconfig"; sourceTree = "<group>"; };
+		ECBF875E22A60F0B003BA414 /* GDmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBF876122A60F0B003BA414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECBF876322A60F0B003BA414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECBF876622A60F0B003BA414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBF876822A60F0D003BA414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBF876B22A60F0D003BA414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBF876D22A60F0D003BA414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBF877322A61156003BA414 /* GDGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDGauge.swift; sourceTree = "<group>"; };
+		ECBF877D22A632E3003BA414 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		EF9316BBE4A57819DE539A12 /* Pods_GDmeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDmeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBF875B22A60F0B003BA414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB2511472B2A787166A9382 /* Pods_GDmeter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187C80C213A0C24BE0C417B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C2250DD3E134617366BA676 /* Pods-GDmeter.debug.xcconfig */,
+				9EE3E955078DDFC188196657 /* Pods-GDmeter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECBF875522A60F0B003BA414 = {
+			isa = PBXGroup;
+			children = (
+				ECBF876022A60F0B003BA414 /* GDmeter */,
+				ECBF875F22A60F0B003BA414 /* Products */,
+				187C80C213A0C24BE0C417B6 /* Pods */,
+				FE732336DC163A64C7FB5089 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBF875F22A60F0B003BA414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBF875E22A60F0B003BA414 /* GDmeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBF876022A60F0B003BA414 /* GDmeter */ = {
+			isa = PBXGroup;
+			children = (
+				ECBF877B22A61156003BA414 /* source */,
+				ECBF876122A60F0B003BA414 /* AppDelegate.swift */,
+				ECBF876322A60F0B003BA414 /* ViewController.swift */,
+				ECBF877D22A632E3003BA414 /* secondViewController.swift */,
+				ECBF876522A60F0B003BA414 /* Main.storyboard */,
+				ECBF876822A60F0D003BA414 /* Assets.xcassets */,
+				ECBF876A22A60F0D003BA414 /* LaunchScreen.storyboard */,
+				ECBF876D22A60F0D003BA414 /* Info.plist */,
+			);
+			path = GDmeter;
+			sourceTree = "<group>";
+		};
+		ECBF877B22A61156003BA414 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				ECBF877322A61156003BA414 /* GDGauge.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		FE732336DC163A64C7FB5089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF9316BBE4A57819DE539A12 /* Pods_GDmeter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBF875D22A60F0B003BA414 /* GDmeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBF877022A60F0D003BA414 /* Build configuration list for PBXNativeTarget "GDmeter" */;
+			buildPhases = (
+				48326B90F0841AE8B3783D9E /* [CP] Check Pods Manifest.lock */,
+				ECBF875A22A60F0B003BA414 /* Sources */,
+				ECBF875B22A60F0B003BA414 /* Frameworks */,
+				ECBF875C22A60F0B003BA414 /* Resources */,
+				6C76A64A9FB8DC3D00FBAEC2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDmeter;
+			productName = GDmeter;
+			productReference = ECBF875E22A60F0B003BA414 /* GDmeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBF875622A60F0B003BA414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = com.henrylai;
+				TargetAttributes = {
+					ECBF875D22A60F0B003BA414 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = ECBF875922A60F0B003BA414 /* Build configuration list for PBXProject "GDmeter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBF875522A60F0B003BA414;
+			productRefGroup = ECBF875F22A60F0B003BA414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBF875D22A60F0B003BA414 /* GDmeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBF875C22A60F0B003BA414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBF876C22A60F0D003BA414 /* LaunchScreen.storyboard in Resources */,
+				ECBF876922A60F0D003BA414 /* Assets.xcassets in Resources */,
+				ECBF876722A60F0B003BA414 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48326B90F0841AE8B3783D9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDmeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C76A64A9FB8DC3D00FBAEC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GDmeter/Pods-GDmeter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GDmeter/Pods-GDmeter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GDmeter/Pods-GDmeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBF875A22A60F0B003BA414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBF877E22A632E3003BA414 /* secondViewController.swift in Sources */,
+				ECBF877C22A61A33003BA414 /* GDGauge.swift in Sources */,
+				ECBF876422A60F0B003BA414 /* ViewController.swift in Sources */,
+				ECBF876222A60F0B003BA414 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECBF876522A60F0B003BA414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBF876622A60F0B003BA414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBF876A22A60F0D003BA414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBF876B22A60F0D003BA414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBF876E22A60F0D003BA414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBF876F22A60F0D003BA414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBF877122A60F0D003BA414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2250DD3E134617366BA676 /* Pods-GDmeter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW6ZRPD5MA;
+				INFOPLIST_FILE = GDmeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrylai.GDmeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBF877222A60F0D003BA414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE3E955078DDFC188196657 /* Pods-GDmeter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW6ZRPD5MA;
+				INFOPLIST_FILE = GDmeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrylai.GDmeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBF875922A60F0B003BA414 /* Build configuration list for PBXProject "GDmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBF876E22A60F0D003BA414 /* Debug */,
+				ECBF876F22A60F0D003BA414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBF877022A60F0D003BA414 /* Build configuration list for PBXNativeTarget "GDmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBF877122A60F0D003BA414 /* Debug */,
+				ECBF877222A60F0D003BA414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBF875622A60F0B003BA414 /* Project object */;
+}
